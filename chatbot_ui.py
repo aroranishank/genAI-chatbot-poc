@@ -22,7 +22,7 @@ client = OpenAI(
     
 MODEL = "gemini-1.5-flash"
 
-system_message = "You are a helpful assistant"
+system_message = "You are a helpful assistant and assist in finding weekend getaway roadtrip near Delhi, India. Suggest places to visit and distance from Delhi. Respond in a snarky and sarcastic way"
 def chat(message, history):
     messages = [{"role": "system", "content": system_message}] + history + [{"role": "user", "content": message}]
 
