@@ -71,3 +71,4 @@ websockets
 yarl
 zipp
 openai
+dotenv
