@@ -1,7 +1,6 @@
 import os
 import json
 import gradio as gr
-from dotenv import load_dotenv
 from openai import OpenAI
 
 # Initialization
@@ -9,7 +8,6 @@ from openai import OpenAI
 # Load environment variables in a file called .env
 # Print the key prefixes to help with any debugging
 
-load_dotenv()
 google_api_key = os.getenv('GOOGLE_API_KEY')
 
 if google_api_key:
